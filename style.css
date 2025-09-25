@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Creepster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+h1 {
+    color: #DC1F1F;
+}
+
+P {
+    color: whitesmoke;
+}
+
+.destaque {
+    color: #DC1F1F;
+}
+
+.ordem {
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ordem__DaParteEscrita {
+    width: 610px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.ordem__DaParteEscrita__Titulo {
+    font-size: 56px;
+    font-family: "Creepster", system-ui;
+    text-align: center;
+}
+
+.ordem__DaParteEscrita__Paragrafo {
+    font-size: 24px;
+    font-family: "Caveat", cursive;
+    text-align: justify;
+}
+
+.imagem-redimencionada {
+    width: 90vh; 
+    height: 65vh;
+}
+
+.ordem__botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ordem__botoes__botao {
+    background-color: #DC1F1F;
+    color: black;
+    font-size: 24px;
+    font-family: "Caveat", cursive;
+    text-align: center;
+    width: 280px;
+    border-radius: 16px;
+    padding: 21.5px 0;
+    text-decoration: none;
+}

@@ -7,25 +7,13 @@
 }
 
 body {
-    height: 100vh;
     box-sizing: border-box;
     background-color: black;
-}
-
-h1 {
-    color: #DC1F1F;
-}
-
-P {
     color: whitesmoke;
 }
 
-.destaque {
-    color: #DC1F1F;
-}
-
 .ordem {
-    margin: 5%;
+    padding: 8% 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,12 +30,17 @@ P {
     font-size: 56px;
     font-family: "Creepster", system-ui;
     text-align: center;
+    color: #DC1F1F;
 }
 
 .ordem__DaParteEscrita__Paragrafo {
     font-size: 24px;
     font-family: "Caveat", cursive;
     text-align: justify;
+}
+
+.destaque {
+    color: #DC1F1F;
 }
 
 .imagem-redimencionada {
@@ -71,6 +64,9 @@ P {
 }
 
 .ordem__botoes__botao {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid #DC1F1F;
     border-radius: 8px;
     color: whitesmoke;
@@ -82,4 +78,21 @@ P {
     border-radius: 16px;
     padding: 16.5px 0;
     text-decoration: none;
+}
+
+.ordem__botoes__botao:hover {
+    background-color: #272727;
+    width: 390px;
+    padding: 21.5px 0;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    color: #000000;
+    background-color: #DC1F1F;
+    font-family: "Caveat", cursive;
+    font-size: 24px;
+    font-weight: 400;
 }

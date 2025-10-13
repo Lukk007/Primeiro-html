@@ -113,3 +113,48 @@ body {
     font-size: 24px;
     font-weight: 400;
 }
+
+@media (max-width: 768px) {
+    .cabecalho {
+        padding: 4% 0 0 0;
+    }
+
+    .cabecalho__menu {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .ordem {
+        flex-direction: column;
+        padding: 5% 3%;
+    }
+
+    .ordem__DaParteEscrita {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .ordem__DaParteEscrita__Titulo {
+        font-size: 40px;
+    }
+
+    .ordem__DaParteEscrita__Paragrafo {
+        font-size: 20px;
+    }
+
+    .imagem-redimencionada {
+        width: 80%;
+        height: auto;
+    }
+
+    .ordem__botoes__botao {
+        width: 80%;
+        padding: 12px 0;
+    }
+
+    .rodape {
+        font-size: 18px;
+        padding: 15px;
+    }
+}

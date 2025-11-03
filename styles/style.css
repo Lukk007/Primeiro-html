@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Creepster&display=swap');
 
+:root {
+    --cor-principal: #DC1F1F;
+    --cor-basica-das-letras: whitesmoke;
+    --cor-preta: #000000;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -16,17 +22,17 @@
 }
 
 .cabecalho__menu__link {
-    color: #DC1F1F;
+    color: var(--cor-principal);
     font-family: "Creepster", system-ui;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
 }
 
 body {
     box-sizing: border-box;
-    background-color: black;
-    color: whitesmoke;
+    background-color: var(--cor-preta);
+    color: var(--cor-basica-das-letras);
 }
 
 .ordem {
@@ -34,6 +40,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .ordem__DaParteEscrita {
@@ -44,20 +51,20 @@ body {
 }
 
 .ordem__DaParteEscrita__Titulo {
-    font-size: 56px;
+    font-size: 3.5rem;
     font-family: "Creepster", system-ui;
     text-align: center;
-    color: #DC1F1F;
+    color: var(--cor-principal);
 }
 
 .ordem__DaParteEscrita__Paragrafo {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: "Caveat", cursive;
     text-align: justify;
 }
 
 .destaque {
-    color: #DC1F1F;
+    color: var(--cor-principal);
 }
 
 .imagem-redimencionada {
@@ -74,8 +81,8 @@ body {
 }
 
 .ordem__botoes__titulo {
-    font-size: 24px;
-    color: whitesmoke;
+    font-size: 1.5rem;
+    color: var(--cor-basica-das-letras);
     font-family: "Caveat", cursive;
     text-align: center;
 }
@@ -84,10 +91,10 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
-    border: 2px solid #DC1F1F;
+    border: 2px solid var(--cor-principal);
     border-radius: 8px;
-    color: whitesmoke;
-    font-size: 24px;
+    color: var(--cor-basica-das-letras);
+    font-size: 1.5rem;
     font-weight: 600;
     font-family: "Caveat", cursive;
     text-align: center;
@@ -107,10 +114,10 @@ body {
     display: flex;
     justify-content: center;
     padding: 24px;
-    color: #000000;
-    background-color: #DC1F1F;
+    color: var(--cor-preta);
+    background-color: var(--cor-principal);
     font-family: "Caveat", cursive;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -137,11 +144,11 @@ body {
     }
 
     .ordem__DaParteEscrita__Titulo {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .ordem__DaParteEscrita__Paragrafo {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .imagem-redimencionada {
@@ -155,7 +162,7 @@ body {
     }
 
     .rodape {
-        font-size: 18px;
+        font-size: 1.125rem;
         padding: 15px;
     }
 }
